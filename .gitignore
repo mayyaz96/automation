@@ -1,0 +1,9 @@
+Common/target/
+Consumer/target/
+Enterprise/target/
+
+Enterprise/test-output/
+
+.metadata
+
+*.html

@@ -1,0 +1,106 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Run All testCases">
+ 
+ <test name="Setup">
+    	<classes>
+    	<class name="TestCases.PreReq" />
+    	</classes>
+    </test>
+ 
+     <test name="Walkthrough">
+        <classes>
+            <class name="TestCases.WalkThroughTest" />
+        </classes>
+    </test>
+    
+ 	<test name="SignUp">
+
+    	<classes>
+    	<class name="TestCases.SignUpTest" />
+    	</classes>
+    </test>
+
+    <test name="Forgot Password">
+    	<classes>
+    	<class name="TestCases.ForgotPasswordTest" />
+    	</classes>
+    </test>
+
+    <test name="Login Test">
+        <classes>
+            <class name="TestCases.LoginTest" />
+        </classes>
+    </test>
+    
+     <test name="Destination Report Test">
+        <classes>
+            <class name="TestCases.DestinationReportTest" />
+        </classes>
+    </test>
+    
+       <test name="Events Test">
+        <classes>
+            <class name="TestCases.EventsTest" />
+        </classes>
+    </test>
+    
+    <test name="Event Alerts Test">
+        <classes>
+            <class name="TestCases.AlertsTest" />
+        </classes>
+        </test>
+    
+       <test name="Profile Test">
+        <classes>
+            <class name="TestCases.Profile" />
+        </classes>
+    </test>
+    
+
+     <test name="Settings - Help Test">
+        <classes>
+            <class name="TestCases.Help" />
+        </classes>
+    </test>
+     <test name="Settings - Configuration Test">
+        <classes>
+            <class name="TestCases.Configuration" />
+        </classes>
+    </test>
+    
+     <test name="Emergency Test">
+        <classes>
+            <class name="TestCases.EmergencyTest" />
+        </classes>
+    </test>
+        <test name="Contact Global Rescue Test">
+        <classes>
+            <class name="TestCases.ContactGRtest" />
+        </classes>
+    </test> 
+    
+        <test name="Contact Your organization Test">
+        <classes>
+            <class name="TestCases.ContactYourOrganization" />
+        </classes>
+  </test>
+    
+         <test name="Check-in Test">
+        <classes>
+            <class name="TestCases.CheckInTest" />
+        </classes>
+    </test> 
+    
+       <test name="Mass Communication Test">
+        <classes>
+            <class name="TestCases.MassComm" />
+        </classes>
+    </test>
+      <test name="Email Test Results">
+        <classes>
+            <class name="TestCases.TestResults" />
+        </classes>
+    </test>
+    
+</suite>

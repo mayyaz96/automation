@@ -1,0 +1,3 @@
+module Enterprise {
+    requires Common;
+}
